@@ -8,23 +8,23 @@ import Footer from "./Footer";
 const Home: React.FC = () => {
   // Personal information
   const personalInfo = {
-    name: "John Doe",
-    tagline: "Honours Mathematics @ University of Waterloo",
+    name: "Ryo Kitano",
+    tagline: "University of Waterloo Math Student",
     photoUrl:
-      "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&q=80",
-    email: "john.doe@uwaterloo.ca",
-    githubUrl: "https://github.com/johndoe",
-    linkedinUrl: "https://linkedin.com/in/johndoe",
+      "https://sigmawire.net/i/03/sOSZtG.jpg",
+    email: "rkitano@uwaterloo.ca",
+    githubUrl: "https://github.com/Ryo0326-hub",
+    linkedinUrl: "https://linkedin.com/in/ryo-kitano",
   };
 
   // Projects data
   const projects = [
     {
       id: 1,
-      title: "Algorithm Visualizer",
+      title: "Automated Algorithm Trade",
       description:
-        "Interactive web application that visualizes various sorting and pathfinding algorithms with step-by-step animations and time complexity analysis.",
-      techStack: ["React", "TypeScript", "D3.js", "Tailwind CSS"],
+        "Implementation of automated algorithmic trading strategies with the OANDA trading platform.",
+      techStack: ["Python", "OANDA API", "Pandas", "Matplotlib"],
       githubUrl: "https://github.com/johndoe/algorithm-visualizer",
       demoUrl: "https://algorithm-visualizer-demo.com",
       imageUrl:
@@ -32,9 +32,9 @@ const Home: React.FC = () => {
     },
     {
       id: 2,
-      title: "Machine Learning Research Paper",
+      title: "Generating Stock Price Prediction using Machine Learning",
       description:
-        "Implementation of a novel approach to neural network optimization based on mathematical principles from calculus of variations.",
+        "Using LSTM neural networks to predict stock prices and visualize the results.",
       techStack: ["Python", "TensorFlow", "NumPy", "Matplotlib"],
       githubUrl: "https://github.com/johndoe/ml-research",
       demoUrl: "https://ml-research-demo.com",
@@ -43,10 +43,10 @@ const Home: React.FC = () => {
     },
     {
       id: 3,
-      title: "Cryptography Tool Suite",
+      title: "Mathematical VR Application for Meta Quest 3s",
       description:
-        "A comprehensive toolkit for encryption, decryption, and cryptanalysis with implementations of various cryptographic algorithms.",
-      techStack: ["JavaScript", "Node.js", "Express", "Web Crypto API"],
+        "A virtual reality application that visualizes mathematical concepts in 3D space.",
+      techStack: ["Unity", "C#", "Oculus Integration", "SteamVR"],
       githubUrl: "https://github.com/johndoe/crypto-tools",
       demoUrl: "https://crypto-tools-demo.com",
       imageUrl:

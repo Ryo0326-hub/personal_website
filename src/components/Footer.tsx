@@ -60,7 +60,7 @@ const Footer = ({
               Let's Connect
             </h3>
             <p className="text-slate-400 max-w-md">
-              I'm always open to new opportunities and collaborations. Feel free
+              Eager to collaborate and explore. Feel free
               to reach out!
             </p>
           </div>

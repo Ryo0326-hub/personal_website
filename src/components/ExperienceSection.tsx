@@ -72,46 +72,15 @@ const ExperienceItem = ({
 const ExperienceSection = () => {
   const experiences: ExperienceItemProps[] = [
     {
-      title: "Software Engineering Intern",
-      company: "Tech Innovations Inc.",
+      title: "JSA Web Development Role",
+      company: "Japanese Student Association",
       location: "Waterloo, ON",
-      period: "May 2023 - Aug 2023",
+      period: "January 2025 - Ongoing",
       description: [
-        "Developed full-stack features for a customer-facing web application using React and Node.js",
-        "Implemented responsive UI components that improved user engagement by 15%",
-        "Collaborated with senior developers to optimize database queries, reducing load times by 30%",
+        "Developed web application for JSA using React and Node.js",
+        "Collaborated with 4th year developers to optimize database queries and learn typescript",
       ],
-      skills: ["React", "TypeScript", "Node.js", "MongoDB", "Express"],
-    },
-    {
-      title: "Research Assistant",
-      company: "University of Waterloo",
-      location: "Waterloo, ON",
-      period: "Sep 2022 - Apr 2023",
-      description: [
-        "Assisted in developing algorithms for data analysis in mathematical modeling projects",
-        "Implemented statistical models using Python and R to analyze large datasets",
-        "Co-authored a research paper on computational methods in applied mathematics",
-      ],
-      skills: [
-        "Python",
-        "R",
-        "Statistical Analysis",
-        "Mathematical Modeling",
-        "LaTeX",
-      ],
-    },
-    {
-      title: "Teaching Assistant",
-      company: "University of Waterloo",
-      location: "Waterloo, ON",
-      period: "Jan 2022 - Apr 2022",
-      description: [
-        "Conducted tutorial sessions for undergraduate Calculus and Linear Algebra courses",
-        "Provided one-on-one assistance to students during office hours",
-        "Graded assignments and exams for a class of 120 students",
-      ],
-      skills: ["Mathematics", "Teaching", "Problem Solving", "Communication"],
+      skills: ["React", "TypeScript", "Node.js", "PostgreSQL"],
     },
   ];
 

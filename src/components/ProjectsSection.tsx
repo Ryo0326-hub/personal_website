@@ -19,43 +19,9 @@ interface ProjectsSectionProps {
 }
 
 const ProjectsSection = ({
-  projects = [
-    {
-      id: 1,
-      title: "Algorithm Visualizer",
-      description:
-        "Interactive web application that visualizes various sorting and pathfinding algorithms with step-by-step animations and time complexity analysis.",
-      techStack: ["React", "TypeScript", "D3.js", "Tailwind CSS"],
-      githubUrl: "https://github.com/username/algorithm-visualizer",
-      demoUrl: "https://algorithm-visualizer-demo.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?w=450&q=80",
-    },
-    {
-      id: 2,
-      title: "Machine Learning Research Paper",
-      description:
-        "Implementation of a novel approach to neural network optimization based on mathematical principles from calculus of variations.",
-      techStack: ["Python", "TensorFlow", "NumPy", "Matplotlib"],
-      githubUrl: "https://github.com/username/ml-research",
-      demoUrl: "https://ml-research-demo.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=450&q=80",
-    },
-    {
-      id: 3,
-      title: "Cryptography Tool Suite",
-      description:
-        "A comprehensive toolkit for encryption, decryption, and cryptanalysis with implementations of various cryptographic algorithms.",
-      techStack: ["JavaScript", "Node.js", "Express", "Web Crypto API"],
-      githubUrl: "https://github.com/username/crypto-tools",
-      demoUrl: "https://crypto-tools-demo.com",
-      imageUrl:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=450&q=80",
-    },
-  ],
-  title = "Featured Projects",
-  subtitle = "A showcase of my technical work and mathematical applications",
+  projects,
+  title,
+  subtitle,
 }: ProjectsSectionProps) => {
   return (
     <section className="py-20 px-4 md:px-8 lg:px-16 bg-slate-950 text-white">
