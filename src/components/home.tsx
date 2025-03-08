@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     name: "Ryo Kitano",
     tagline: "University of Waterloo Math Student",
     photoUrl:
-      "https://sigmawire.net/i/03/sOSZtG.jpg",
+      "",
     email: "rkitano@uwaterloo.ca",
     githubUrl: "https://github.com/Ryo0326-hub",
     linkedinUrl: "https://linkedin.com/in/ryo-kitano",
@@ -47,6 +47,17 @@ const Home: React.FC = () => {
       description:
         "A virtual reality application that visualizes mathematical concepts in 3D space.",
       techStack: ["Unity", "C#", "Oculus Integration", "SteamVR"],
+      githubUrl: "https://github.com/johndoe/crypto-tools",
+      demoUrl: "https://crypto-tools-demo.com",
+      imageUrl:
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=450&q=80",
+    },
+    {
+      id: 4,
+      title: "Bitcoin Mining using C++",
+      description:
+        "Using C++ programming to mine Bitcoin and visualize the results.",
+      techStack: ["C++"],
       githubUrl: "https://github.com/johndoe/crypto-tools",
       demoUrl: "https://crypto-tools-demo.com",
       imageUrl:
